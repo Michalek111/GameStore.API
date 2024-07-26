@@ -14,3 +14,5 @@ app.MapGenresEndpoints();
 await app.MigrateDbAsync();
 
 app.Run();
+
+//próba
