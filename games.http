@@ -1,0 +1,29 @@
+GET http://localhost:5093/games
+
+###
+GET http://localhost:5093/games/3
+
+###
+POST http://localhost:5093/games
+Content-Type: application/json
+
+{
+   "name": "Final Fantasy XIV",
+    "genreID": 2,
+    "price": 59.99,
+    "releaseDate": "2010-09-30"
+}
+
+###
+PUT http://localhost:5093/games/5
+Content-Type: application/json
+
+{
+    "name": "Fantasy XIII",
+    "genreID": 2,
+    "price": 19.99,
+    "releaseDate": "2009-12-11"
+}
+
+###
+DELETE http://localhost:5093/games/2 
