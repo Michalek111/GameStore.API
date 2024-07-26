@@ -15,4 +15,3 @@ await app.MigrateDbAsync();
 
 app.Run();
 
-//próba
